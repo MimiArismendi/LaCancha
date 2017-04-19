@@ -1,0 +1,89 @@
+body{
+  background-color: #ADE0EC;
+}
+
+h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  background-color: #2AA3BD;
+  color: white;
+}
+
+#rectanguloFutbol {
+     width: 740px;
+     height: 400px;
+     border: 3px solid #EFF8EC;/*blanco*/
+     background: #0F7105;/*cesped verde*/
+     margin:0 auto;
+}
+
+#marcoCancha{
+    width: 690px;
+    height: 360px;
+    border: 2px solid #EFF8EC;/*blanco*/
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#porteriaIzq{
+    width: 120px;
+    height: 200px;
+    border: 2px solid #EFF8EC;/*blanco*/
+    background: #0F7105;/*cesped verde*/
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+#centro{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #EFF8EC;
+    background: #0F7105;
+    float: left;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+#porteriaDer{
+    width: 120px;
+    height: 200px;
+    border: 2px solid #EFF8EC;/*blanco*/
+    background: #0F7105;/*cesped verde*/
+    float: right;
+    margin-right: 26px;
+    margin-top: 100px;
+}
+
+.balones{
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #EFF8EC;
+  background: #EFF8EC;
+  position: absolute;
+}
+
+#uno{
+  margin-top: 150px;
+  margin-left: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);/*para sombra en el baloncito*/
+}
+
+#dos{
+  margin-top: 300px;
+  margin-left: 550px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tres{
+  margin-top: 100px;
+  margin-left: 390px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
